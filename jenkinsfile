@@ -1,0 +1,14 @@
+pipeline {
+agent any
+stages {
+stage ("SCM"){
+steps {git 'https://github.com/Netha1999/devops-netha.git'}
+}
+stage ("Build"){
+steps {
+		sh 'mvn clean'
+		sh 'mvn install' 
+		}
+}
+}
+}

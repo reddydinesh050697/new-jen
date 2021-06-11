@@ -1,0 +1,4 @@
+system.out.println("netha");
+echo"Name"
+$name=netha
+haaaaiiiiiiiiiiiiii hellooooooooo
